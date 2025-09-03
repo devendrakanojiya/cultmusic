@@ -3,7 +3,6 @@ services:
     name: CultMusic
     env: python
     runtime: python
-    pythonVersion: 3.11
     region: singapore 
     branch: main
     rootDir: .  
