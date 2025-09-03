@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: CultMusic
+    env: python
+    runtime: python
+    pythonVersion: 3.11
+    region: singapore 
+    branch: main
+    rootDir: .  
+    buildCommand: pip3 install --no-cache-dir --upgrade --requirement requirements.txt
+    startCommand: bash start
+    autoDeploy: true
+    plan: free
